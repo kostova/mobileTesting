@@ -1,0 +1,104 @@
+* { margin: 0; padding: 0; box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; }
+body { background-color: #e8e8e8; font-size: 1.2em; }
+iframe { display: none; }
+
+/* override TAP style that causes ios safari to make all content invisible */
+html:before, html:after, body:before, body:after { content: normal; }
+/* override TAP style that causes extra space to appear on ios safar */
+input[type='checkbox'],
+input[type='radio'] {
+  position: fixed !important;
+}
+
+label { display: block; margin: 20px 0 20px 50px; font-size: .8em;}
+input, select, textarea { display: inline-block !important; font-size: 1.1em; width: 300px !important; margin: 0 !important;}
+input.required, select.required { border-left: solid #e77e23 4px;}
+.label { display: inline-block; width: 100px; text-align: right; padding-right: 10px; }
+.label.top { vertical-align: top;  }
+
+label.checkbox { padding-left: 104px; color: #888; font-style: italic; }
+.expiry { display: inline-block !important; width: auto !important; }
+
+select {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	border-radius: 4px;
+	display: block;
+	width: 535px;
+	margin-top: 20px;
+	padding: 5px 25px 5px 10px;
+	border: 2px solid #dbe3e4;
+	color: #2d3e50;
+	font: 400 13px "Open Sans", sans-serif;
+	-webkit-appearance: none;
+	background: url("arrow1.png") right center no-repeat;
+}
+select[multiple]{ background-image: none; }
+select:focus{ border-color: #c2e0f4; }
+/* IE */
+select::-ms-expand {
+    display: none;
+}
+/* FF */
+select{	
+	-moz-appearance: none;
+	text-indent: 1px;
+    text-overflow: '';
+}
+
+input.error, select.error, input.error:focus, select.error:focus { border-color: #e84c3d; }
+label.error { color: #e84c3d; }
+
+.imageRadio:checked + img { border-color: #e77e23; }
+
+.header { position: relative; text-align: center; background: url("tacotime.jpg") center center no-repeat #c1392b; }
+.header .logoImage { margin: 10px 5px 35px 5px; width: 100%; max-width: 295px;}
+.header .submessage { position: absolute; bottom: 0; left: 0; width: 100%; color: #2d3e50; background-color: rgba(241,196,15,.75); padding: 5px 3px; font-size: .9em; }
+
+.logotype { letter-spacing: -.05em; }
+.logotype .telerik { font-weight: 800; }
+.logotype .tacos { color: #e6a329; }
+
+.cardType, .tortillaRadios { text-align: center; }
+.cardType label, .tortillaRadios label { display: inline-block; margin: 5px;}
+.cardType img, .tortillaRadios img { border: solid #EEE 3px; border-radius: 4px; padding: 5px; width: 100%; }
+
+.wrapper { width: 600px; margin: auto; padding: 8px;}
+fieldset { display: block; margin: 10px 0; border-radius: 2px; border-bottom: solid #DDD 3px; background-color: white; padding: 15px;}
+h2 { color: #e77e23; font-size: 1em;}
+
+button.wide { width: 100%; }
+img.wide { width: 100%; }
+
+.submitButton { max-width: 300px; font-size: 1.4em; padding: 10px; background-color: #f39c11;}
+.submitButton:hover, .submitButton:focus { background-color: #e77e23;}
+.submitButton:active { background-color: #e77e23;}
+
+.actions { text-align: center; margin-top: 25px;}
+
+.errmsgContainer { padding-left: 104px; }
+.errmsg { font-size: .8em; padding-right: 5px; }
+
+.footer { background-color: #2a2d33; color: #818692; padding: 20px 10px; margin-top: 20px; text-align: center; font-size: .7em;}
+
+
+/* small display */
+@media (max-width: 640px){
+	fieldset { width: 100%; }
+	label { display: block; margin: 15px 0 4px 0; font-size: 1em; }
+	.label { display: block; text-align: left; width: auto;}
+	input, select, textarea { margin-top: 4px !important; width: 100% !important;}
+	.wrapper { max-width: 350px; width: 100%; }
+	label.checkbox { padding-left: 0; }
+	.errmsgContainer { padding-left: 0; }
+	.cardType label { width: 25%; }
+	.tortillaRadios label { width: 40%; }
+}
+
+/* taco builder */
+.subtotalContainer { font-weight: bold; font-size: 1.4em; margin-top: 20px; color: #f39c11; text-align: center; }
+
+#tacoBuilderImageStack { text-align: center; position: relative; padding-bottom: 200px; margin: auto; width: 100%;  max-width: 300px; }
+#tacoBuilderImageStack img { width: 100%; position: absolute; top: 0; left: 0;}

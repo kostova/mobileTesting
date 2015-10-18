@@ -1,0 +1,902 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		851DA7DA1BA1E14300C5F2C6 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 851DA7D91BA1E14300C5F2C6 /* libicucore.dylib */; };
+		853A4D331B90AF4300A8AEAD /* ToolBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76AA1B90ADDF0024F39F /* ToolBarViewController.m */; };
+		853A4D341B90AF4300A8AEAD /* ScrollViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76A41B90ADDF0024F39F /* ScrollViewViewController.m */; };
+		853A4D351B90AF4300A8AEAD /* PageControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76A61B90ADDF0024F39F /* PageControlViewController.m */; };
+		853A4D361B90AF4300A8AEAD /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76981B90ADDF0024F39F /* DatePickerViewController.m */; };
+		853A4D371B90AF4300A8AEAD /* TableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76A01B90ADDF0024F39F /* TableViewViewController.m */; };
+		853A4D381B90AF4300A8AEAD /* TextViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76A21B90ADDF0024F39F /* TextViewViewController.m */; };
+		853A4D391B90AF4300A8AEAD /* SwitchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76961B90ADDF0024F39F /* SwitchesViewController.m */; };
+		853A4D3A1B90AF4300A8AEAD /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F768B1B90ADDF0024F39F /* ImageViewController.m */; };
+		853A4D3B1B90AF4300A8AEAD /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76B21B90ADDF0024F39F /* CollectionViewController.m */; };
+		853A4D3C1B90AF4300A8AEAD /* ButtonDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76901B90ADDF0024F39F /* ButtonDemoViewController.m */; };
+		853A4D3D1B90AF4300A8AEAD /* GestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76891B90ADDF0024F39F /* GestureViewController.m */; };
+		853A4D3E1B90AF4300A8AEAD /* TextFieldsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76941B90ADDF0024F39F /* TextFieldsViewController.m */; };
+		853A4D3F1B90AF4300A8AEAD /* ImageScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76AE1B90ADDF0024F39F /* ImageScrollViewController.m */; };
+		853A4D401B90AF4300A8AEAD /* DemoApplicationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76251B90AD890024F39F /* DemoApplicationAppDelegate.m */; };
+		853A4D411B90AF4300A8AEAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76061B90AB580024F39F /* main.m */; };
+		853A4D421B90AF4300A8AEAD /* StepperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76B01B90ADDF0024F39F /* StepperViewController.m */; };
+		853A4D431B90AF4300A8AEAD /* WebViewDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F769A1B90ADDF0024F39F /* WebViewDemoController.m */; };
+		853A4D441B90AF4300A8AEAD /* TSCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76B51B90ADDF0024F39F /* TSCollectionCell.m */; };
+		853A4D451B90AF4300A8AEAD /* PageControlPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76A81B90ADDF0024F39F /* PageControlPageViewController.m */; };
+		853A4D461B90AF4300A8AEAD /* SearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F768E1B90ADDF0024F39F /* SearchBarViewController.m */; };
+		853A4D471B90AF4300A8AEAD /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76AC1B90ADDF0024F39F /* TabBarViewController.m */; };
+		853A4D481B90AF4300A8AEAD /* SegmentedControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F769C1B90ADDF0024F39F /* SegmentedControlViewController.m */; };
+		853A4D491B90AF4300A8AEAD /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76271B90AD890024F39F /* RootViewController.m */; };
+		853A4D4A1B90AF4300A8AEAD /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F769E1B90ADDF0024F39F /* PickerViewController.m */; };
+		853A4D4B1B90AF4300A8AEAD /* SlidersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76921B90ADDF0024F39F /* SlidersViewController.m */; };
+		853A4D4E1B90AF4300A8AEAD /* StepperViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76421B90ADA10024F39F /* StepperViewController-iPad.xib */; };
+		853A4D4F1B90AF4300A8AEAD /* SearchBarViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76311B90ADA10024F39F /* SearchBarViewController-iPad.xib */; };
+		853A4D501B90AF4300A8AEAD /* demoIcon_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 853F761E1B90ABD70024F39F /* demoIcon_57x57.png */; };
+		853A4D521B90AF4300A8AEAD /* TabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F766D1B90ADB90024F39F /* TabBarViewController.xib */; };
+		853A4D531B90AF4300A8AEAD /* TextFieldsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76611B90ADB90024F39F /* TextFieldsViewController.xib */; };
+		853A4D541B90AF4300A8AEAD /* SlidersViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76331B90ADA10024F39F /* SlidersViewController-iPad.xib */; };
+		853A4D551B90AF4300A8AEAD /* ToolBarViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F763F1B90ADA10024F39F /* ToolBarViewController-iPad.xib */; };
+		853A4D561B90AF4300A8AEAD /* PageControlPageViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F763E1B90ADA10024F39F /* PageControlPageViewController-iPad.xib */; };
+		853A4D571B90AF4300A8AEAD /* TableViewViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F763A1B90ADA10024F39F /* TableViewViewController-iPad.xib */; };
+		853A4D581B90AF4300A8AEAD /* PickerViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76391B90ADA10024F39F /* PickerViewController-iPad.xib */; };
+		853A4D591B90AF4300A8AEAD /* SwitchesViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76351B90ADA10024F39F /* SwitchesViewController-iPad.xib */; };
+		853A4D5A1B90AF4300A8AEAD /* SegmentedControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76651B90ADB90024F39F /* SegmentedControlViewController.xib */; };
+		853A4D5B1B90AF4300A8AEAD /* TableViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76671B90ADB90024F39F /* TableViewViewController.xib */; };
+		853A4D5C1B90AF4300A8AEAD /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76701B90ADB90024F39F /* CollectionViewCell.xib */; };
+		853A4D5D1B90AF4300A8AEAD /* StepperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F766F1B90ADB90024F39F /* StepperViewController.xib */; };
+		853A4D5E1B90AF4300A8AEAD /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F765D1B90ADB90024F39F /* ImageViewController.xib */; };
+		853A4D5F1B90AF4300A8AEAD /* DatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76631B90ADB90024F39F /* DatePickerViewController.xib */; };
+		853A4D601B90AF4300A8AEAD /* ButtonDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F765F1B90ADB90024F39F /* ButtonDemoViewController.xib */; };
+		853A4D611B90AF4300A8AEAD /* CollectionViewCell-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76441B90ADA10024F39F /* CollectionViewCell-iPad.xib */; };
+		853A4D621B90AF4300A8AEAD /* ImageScrollViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76411B90ADA10024F39F /* ImageScrollViewController-iPad.xib */; };
+		853A4D631B90AF4300A8AEAD /* ImageViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76301B90ADA10024F39F /* ImageViewController-iPad.xib */; };
+		853A4D641B90AF4300A8AEAD /* SwitchesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76621B90ADB90024F39F /* SwitchesViewController.xib */; };
+		853A4D651B90AF4300A8AEAD /* ImageScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F766E1B90ADB90024F39F /* ImageScrollViewController.xib */; };
+		853A4D661B90AF4300A8AEAD /* ToolBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F766C1B90ADB90024F39F /* ToolBarViewController.xib */; };
+		853A4D671B90AF4300A8AEAD /* ScrollViewViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F763C1B90ADA10024F39F /* ScrollViewViewController-iPad.xib */; };
+		853A4D681B90AF4300A8AEAD /* PageControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F766A1B90ADB90024F39F /* PageControlViewController.xib */; };
+		853A4D691B90AF4300A8AEAD /* demoIcon_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 853F761F1B90ABD70024F39F /* demoIcon_114x114.png */; };
+		853A4D6A1B90AF4300A8AEAD /* ScrollViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76691B90ADB90024F39F /* ScrollViewViewController.xib */; };
+		853A4D6B1B90AF4300A8AEAD /* TextFieldsViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76341B90ADA10024F39F /* TextFieldsViewController-iPad.xib */; };
+		853A4D6C1B90AF4300A8AEAD /* DatePickerViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76361B90ADA10024F39F /* DatePickerViewController-iPad.xib */; };
+		853A4D6D1B90AF4300A8AEAD /* TextViewViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F763B1B90ADA10024F39F /* TextViewViewController-iPad.xib */; };
+		853A4D6E1B90AF4300A8AEAD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 853F761C1B90ABD70024F39F /* Default-568h@2x.png */; };
+		853A4D6F1B90AF4300A8AEAD /* TabBarViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76401B90ADA10024F39F /* TabBarViewController-iPad.xib */; };
+		853A4D701B90AF4300A8AEAD /* TextViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76681B90ADB90024F39F /* TextViewViewController.xib */; };
+		853A4D711B90AF4300A8AEAD /* PageControlPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F766B1B90ADB90024F39F /* PageControlPageViewController.xib */; };
+		853A4D721B90AF4300A8AEAD /* SearchBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F765E1B90ADB90024F39F /* SearchBarViewController.xib */; };
+		853A4D731B90AF4300A8AEAD /* SlidersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76601B90ADB90024F39F /* SlidersViewController.xib */; };
+		853A4D741B90AF4300A8AEAD /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76291B90AD890024F39F /* MainWindow.xib */; };
+		853A4D751B90AF4300A8AEAD /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76281B90AD890024F39F /* RootViewController.xib */; };
+		853A4D761B90AF4300A8AEAD /* GestureViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F762F1B90ADA10024F39F /* GestureViewController-iPad.xib */; };
+		853A4D771B90AF4300A8AEAD /* CollectionViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76431B90ADA10024F39F /* CollectionViewController-iPad.xib */; };
+		853A4D781B90AF4300A8AEAD /* PageControlViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F763D1B90ADA10024F39F /* PageControlViewController-iPad.xib */; };
+		853A4D791B90AF4300A8AEAD /* SegmentedControlViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76381B90ADA10024F39F /* SegmentedControlViewController-iPad.xib */; };
+		853A4D7A1B90AF4300A8AEAD /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76711B90ADB90024F39F /* CollectionViewController.xib */; };
+		853A4D7B1B90AF4300A8AEAD /* GestureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F765C1B90ADB90024F39F /* GestureViewController.xib */; };
+		853A4D7C1B90AF4300A8AEAD /* telerik_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 853F761D1B90ABD70024F39F /* telerik_logo.jpg */; };
+		853A4D7D1B90AF4300A8AEAD /* WebViewDemoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76641B90ADB90024F39F /* WebViewDemoController.xib */; };
+		853A4D7E1B90AF4300A8AEAD /* PickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76661B90ADB90024F39F /* PickerViewController.xib */; };
+		853A4D7F1B90AF4300A8AEAD /* WebViewDemoController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76371B90ADA10024F39F /* WebViewDemoController-iPad.xib */; };
+		853A4D801B90AF4300A8AEAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853F76111B90AB580024F39F /* Assets.xcassets */; };
+		853A4D811B90AF4300A8AEAD /* ButtonDemoViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76321B90ADA10024F39F /* ButtonDemoViewController-iPad.xib */; };
+		853A4D8A1B90AFEB00A8AEAD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853A4D891B90AFEB00A8AEAD /* QuartzCore.framework */; };
+		853A4D8E1B90AFF900A8AEAD /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853A4D8D1B90AFF900A8AEAD /* Security.framework */; };
+		853A4D901B90B00000A8AEAD /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853A4D8F1B90B00000A8AEAD /* CFNetwork.framework */; };
+		853A4D921B90B06500A8AEAD /* libMobileTestingExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 853A4D871B90AFE300A8AEAD /* libMobileTestingExtension.a */; };
+		853F76071B90AB580024F39F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76061B90AB580024F39F /* main.m */; };
+		853F76121B90AB580024F39F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853F76111B90AB580024F39F /* Assets.xcassets */; };
+		853F76201B90ABD70024F39F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 853F761C1B90ABD70024F39F /* Default-568h@2x.png */; };
+		853F76211B90ABD70024F39F /* telerik_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 853F761D1B90ABD70024F39F /* telerik_logo.jpg */; };
+		853F76221B90ABD70024F39F /* demoIcon_57x57.png in Resources */ = {isa = PBXBuildFile; fileRef = 853F761E1B90ABD70024F39F /* demoIcon_57x57.png */; };
+		853F76231B90ABD70024F39F /* demoIcon_114x114.png in Resources */ = {isa = PBXBuildFile; fileRef = 853F761F1B90ABD70024F39F /* demoIcon_114x114.png */; };
+		853F762A1B90AD890024F39F /* DemoApplicationAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76251B90AD890024F39F /* DemoApplicationAppDelegate.m */; };
+		853F762B1B90AD890024F39F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76271B90AD890024F39F /* RootViewController.m */; };
+		853F762C1B90AD890024F39F /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76281B90AD890024F39F /* RootViewController.xib */; };
+		853F762D1B90AD890024F39F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76291B90AD890024F39F /* MainWindow.xib */; };
+		853F76451B90ADA10024F39F /* GestureViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F762F1B90ADA10024F39F /* GestureViewController-iPad.xib */; };
+		853F76461B90ADA10024F39F /* ImageViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76301B90ADA10024F39F /* ImageViewController-iPad.xib */; };
+		853F76471B90ADA10024F39F /* SearchBarViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76311B90ADA10024F39F /* SearchBarViewController-iPad.xib */; };
+		853F76481B90ADA10024F39F /* ButtonDemoViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76321B90ADA10024F39F /* ButtonDemoViewController-iPad.xib */; };
+		853F76491B90ADA10024F39F /* SlidersViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76331B90ADA10024F39F /* SlidersViewController-iPad.xib */; };
+		853F764A1B90ADA10024F39F /* TextFieldsViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76341B90ADA10024F39F /* TextFieldsViewController-iPad.xib */; };
+		853F764B1B90ADA10024F39F /* SwitchesViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76351B90ADA10024F39F /* SwitchesViewController-iPad.xib */; };
+		853F764C1B90ADA10024F39F /* DatePickerViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76361B90ADA10024F39F /* DatePickerViewController-iPad.xib */; };
+		853F764D1B90ADA10024F39F /* WebViewDemoController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76371B90ADA10024F39F /* WebViewDemoController-iPad.xib */; };
+		853F764E1B90ADA10024F39F /* SegmentedControlViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76381B90ADA10024F39F /* SegmentedControlViewController-iPad.xib */; };
+		853F764F1B90ADA10024F39F /* PickerViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76391B90ADA10024F39F /* PickerViewController-iPad.xib */; };
+		853F76501B90ADA10024F39F /* TableViewViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F763A1B90ADA10024F39F /* TableViewViewController-iPad.xib */; };
+		853F76511B90ADA10024F39F /* TextViewViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F763B1B90ADA10024F39F /* TextViewViewController-iPad.xib */; };
+		853F76521B90ADA10024F39F /* ScrollViewViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F763C1B90ADA10024F39F /* ScrollViewViewController-iPad.xib */; };
+		853F76531B90ADA10024F39F /* PageControlViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F763D1B90ADA10024F39F /* PageControlViewController-iPad.xib */; };
+		853F76541B90ADA10024F39F /* PageControlPageViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F763E1B90ADA10024F39F /* PageControlPageViewController-iPad.xib */; };
+		853F76551B90ADA10024F39F /* ToolBarViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F763F1B90ADA10024F39F /* ToolBarViewController-iPad.xib */; };
+		853F76561B90ADA10024F39F /* TabBarViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76401B90ADA10024F39F /* TabBarViewController-iPad.xib */; };
+		853F76571B90ADA10024F39F /* ImageScrollViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76411B90ADA10024F39F /* ImageScrollViewController-iPad.xib */; };
+		853F76581B90ADA10024F39F /* StepperViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76421B90ADA10024F39F /* StepperViewController-iPad.xib */; };
+		853F76591B90ADA10024F39F /* CollectionViewController-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76431B90ADA10024F39F /* CollectionViewController-iPad.xib */; };
+		853F765A1B90ADA10024F39F /* CollectionViewCell-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76441B90ADA10024F39F /* CollectionViewCell-iPad.xib */; };
+		853F76721B90ADB90024F39F /* GestureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F765C1B90ADB90024F39F /* GestureViewController.xib */; };
+		853F76731B90ADB90024F39F /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F765D1B90ADB90024F39F /* ImageViewController.xib */; };
+		853F76741B90ADB90024F39F /* SearchBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F765E1B90ADB90024F39F /* SearchBarViewController.xib */; };
+		853F76751B90ADB90024F39F /* ButtonDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F765F1B90ADB90024F39F /* ButtonDemoViewController.xib */; };
+		853F76761B90ADB90024F39F /* SlidersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76601B90ADB90024F39F /* SlidersViewController.xib */; };
+		853F76771B90ADB90024F39F /* TextFieldsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76611B90ADB90024F39F /* TextFieldsViewController.xib */; };
+		853F76781B90ADB90024F39F /* SwitchesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76621B90ADB90024F39F /* SwitchesViewController.xib */; };
+		853F76791B90ADB90024F39F /* DatePickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76631B90ADB90024F39F /* DatePickerViewController.xib */; };
+		853F767A1B90ADB90024F39F /* WebViewDemoController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76641B90ADB90024F39F /* WebViewDemoController.xib */; };
+		853F767B1B90ADB90024F39F /* SegmentedControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76651B90ADB90024F39F /* SegmentedControlViewController.xib */; };
+		853F767C1B90ADB90024F39F /* PickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76661B90ADB90024F39F /* PickerViewController.xib */; };
+		853F767D1B90ADB90024F39F /* TableViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76671B90ADB90024F39F /* TableViewViewController.xib */; };
+		853F767E1B90ADB90024F39F /* TextViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76681B90ADB90024F39F /* TextViewViewController.xib */; };
+		853F767F1B90ADB90024F39F /* ScrollViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76691B90ADB90024F39F /* ScrollViewViewController.xib */; };
+		853F76801B90ADB90024F39F /* PageControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F766A1B90ADB90024F39F /* PageControlViewController.xib */; };
+		853F76811B90ADB90024F39F /* PageControlPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F766B1B90ADB90024F39F /* PageControlPageViewController.xib */; };
+		853F76821B90ADB90024F39F /* ToolBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F766C1B90ADB90024F39F /* ToolBarViewController.xib */; };
+		853F76831B90ADB90024F39F /* TabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F766D1B90ADB90024F39F /* TabBarViewController.xib */; };
+		853F76841B90ADB90024F39F /* ImageScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F766E1B90ADB90024F39F /* ImageScrollViewController.xib */; };
+		853F76851B90ADB90024F39F /* StepperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F766F1B90ADB90024F39F /* StepperViewController.xib */; };
+		853F76861B90ADB90024F39F /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76701B90ADB90024F39F /* CollectionViewCell.xib */; };
+		853F76871B90ADB90024F39F /* CollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853F76711B90ADB90024F39F /* CollectionViewController.xib */; };
+		853F76B61B90ADDF0024F39F /* GestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76891B90ADDF0024F39F /* GestureViewController.m */; };
+		853F76B71B90ADDF0024F39F /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F768B1B90ADDF0024F39F /* ImageViewController.m */; };
+		853F76B81B90ADDF0024F39F /* SearchBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F768E1B90ADDF0024F39F /* SearchBarViewController.m */; };
+		853F76B91B90ADDF0024F39F /* ButtonDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76901B90ADDF0024F39F /* ButtonDemoViewController.m */; };
+		853F76BA1B90ADDF0024F39F /* SlidersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76921B90ADDF0024F39F /* SlidersViewController.m */; };
+		853F76BB1B90ADDF0024F39F /* TextFieldsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76941B90ADDF0024F39F /* TextFieldsViewController.m */; };
+		853F76BC1B90ADDF0024F39F /* SwitchesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76961B90ADDF0024F39F /* SwitchesViewController.m */; };
+		853F76BD1B90ADDF0024F39F /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76981B90ADDF0024F39F /* DatePickerViewController.m */; };
+		853F76BE1B90ADDF0024F39F /* WebViewDemoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F769A1B90ADDF0024F39F /* WebViewDemoController.m */; };
+		853F76BF1B90ADDF0024F39F /* SegmentedControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F769C1B90ADDF0024F39F /* SegmentedControlViewController.m */; };
+		853F76C01B90ADDF0024F39F /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F769E1B90ADDF0024F39F /* PickerViewController.m */; };
+		853F76C11B90ADDF0024F39F /* TableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76A01B90ADDF0024F39F /* TableViewViewController.m */; };
+		853F76C21B90ADDF0024F39F /* TextViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76A21B90ADDF0024F39F /* TextViewViewController.m */; };
+		853F76C31B90ADDF0024F39F /* ScrollViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76A41B90ADDF0024F39F /* ScrollViewViewController.m */; };
+		853F76C41B90ADDF0024F39F /* PageControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76A61B90ADDF0024F39F /* PageControlViewController.m */; };
+		853F76C51B90ADDF0024F39F /* PageControlPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76A81B90ADDF0024F39F /* PageControlPageViewController.m */; };
+		853F76C61B90ADDF0024F39F /* ToolBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76AA1B90ADDF0024F39F /* ToolBarViewController.m */; };
+		853F76C71B90ADDF0024F39F /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76AC1B90ADDF0024F39F /* TabBarViewController.m */; };
+		853F76C81B90ADDF0024F39F /* ImageScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76AE1B90ADDF0024F39F /* ImageScrollViewController.m */; };
+		853F76C91B90ADDF0024F39F /* StepperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76B01B90ADDF0024F39F /* StepperViewController.m */; };
+		853F76CA1B90ADDF0024F39F /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76B21B90ADDF0024F39F /* CollectionViewController.m */; };
+		853F76CB1B90ADDF0024F39F /* TSCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 853F76B51B90ADDF0024F39F /* TSCollectionCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		851DA7D91BA1E14300C5F2C6 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		853A4D851B90AF4300A8AEAD /* DemoAppQA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoAppQA.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		853A4D861B90AF4300A8AEAD /* DemoApplicationQA-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "DemoApplicationQA-Info.plist"; path = "/Users/shoerob/Downloads/Telerik Mobile Testing/samples/iOS/DemoApplication/DemoApplicationQA-Info.plist"; sourceTree = "<absolute>"; };
+		853A4D871B90AFE300A8AEAD /* libMobileTestingExtension.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMobileTestingExtension.a; path = ../../../../extensions/iOS/libMobileTestingExtension.a; sourceTree = "<group>"; };
+		853A4D891B90AFEB00A8AEAD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		853A4D8B1B90AFF200A8AEAD /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		853A4D8D1B90AFF900A8AEAD /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		853A4D8F1B90B00000A8AEAD /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		853F76021B90AB580024F39F /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		853F76061B90AB580024F39F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		853F76111B90AB580024F39F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		853F76161B90AB580024F39F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		853F761C1B90ABD70024F39F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		853F761D1B90ABD70024F39F /* telerik_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = telerik_logo.jpg; sourceTree = "<group>"; };
+		853F761E1B90ABD70024F39F /* demoIcon_57x57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demoIcon_57x57.png; sourceTree = "<group>"; };
+		853F761F1B90ABD70024F39F /* demoIcon_114x114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demoIcon_114x114.png; sourceTree = "<group>"; };
+		853F76241B90AD890024F39F /* DemoApplicationAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoApplicationAppDelegate.h; sourceTree = "<group>"; };
+		853F76251B90AD890024F39F /* DemoApplicationAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoApplicationAppDelegate.m; sourceTree = "<group>"; };
+		853F76261B90AD890024F39F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		853F76271B90AD890024F39F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		853F76281B90AD890024F39F /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		853F76291B90AD890024F39F /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		853F762F1B90ADA10024F39F /* GestureViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "GestureViewController-iPad.xib"; sourceTree = "<group>"; };
+		853F76301B90ADA10024F39F /* ImageViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ImageViewController-iPad.xib"; sourceTree = "<group>"; };
+		853F76311B90ADA10024F39F /* SearchBarViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SearchBarViewController-iPad.xib"; sourceTree = "<group>"; };
+		853F76321B90ADA10024F39F /* ButtonDemoViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ButtonDemoViewController-iPad.xib"; sourceTree = "<group>"; };
+		853F76331B90ADA10024F39F /* SlidersViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SlidersViewController-iPad.xib"; sourceTree = "<group>"; };
+		853F76341B90ADA10024F39F /* TextFieldsViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "TextFieldsViewController-iPad.xib"; sourceTree = "<group>"; };
+		853F76351B90ADA10024F39F /* SwitchesViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SwitchesViewController-iPad.xib"; sourceTree = "<group>"; };
+		853F76361B90ADA10024F39F /* DatePickerViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "DatePickerViewController-iPad.xib"; sourceTree = "<group>"; };
+		853F76371B90ADA10024F39F /* WebViewDemoController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "WebViewDemoController-iPad.xib"; sourceTree = "<group>"; };
+		853F76381B90ADA10024F39F /* SegmentedControlViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "SegmentedControlViewController-iPad.xib"; sourceTree = "<group>"; };
+		853F76391B90ADA10024F39F /* PickerViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PickerViewController-iPad.xib"; sourceTree = "<group>"; };
+		853F763A1B90ADA10024F39F /* TableViewViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "TableViewViewController-iPad.xib"; sourceTree = "<group>"; };
+		853F763B1B90ADA10024F39F /* TextViewViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "TextViewViewController-iPad.xib"; sourceTree = "<group>"; };
+		853F763C1B90ADA10024F39F /* ScrollViewViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ScrollViewViewController-iPad.xib"; sourceTree = "<group>"; };
+		853F763D1B90ADA10024F39F /* PageControlViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PageControlViewController-iPad.xib"; sourceTree = "<group>"; };
+		853F763E1B90ADA10024F39F /* PageControlPageViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "PageControlPageViewController-iPad.xib"; sourceTree = "<group>"; };
+		853F763F1B90ADA10024F39F /* ToolBarViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ToolBarViewController-iPad.xib"; sourceTree = "<group>"; };
+		853F76401B90ADA10024F39F /* TabBarViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "TabBarViewController-iPad.xib"; sourceTree = "<group>"; };
+		853F76411B90ADA10024F39F /* ImageScrollViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "ImageScrollViewController-iPad.xib"; sourceTree = "<group>"; };
+		853F76421B90ADA10024F39F /* StepperViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "StepperViewController-iPad.xib"; sourceTree = "<group>"; };
+		853F76431B90ADA10024F39F /* CollectionViewController-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CollectionViewController-iPad.xib"; sourceTree = "<group>"; };
+		853F76441B90ADA10024F39F /* CollectionViewCell-iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "CollectionViewCell-iPad.xib"; sourceTree = "<group>"; };
+		853F765C1B90ADB90024F39F /* GestureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GestureViewController.xib; sourceTree = "<group>"; };
+		853F765D1B90ADB90024F39F /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
+		853F765E1B90ADB90024F39F /* SearchBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchBarViewController.xib; sourceTree = "<group>"; };
+		853F765F1B90ADB90024F39F /* ButtonDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ButtonDemoViewController.xib; sourceTree = "<group>"; };
+		853F76601B90ADB90024F39F /* SlidersViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlidersViewController.xib; sourceTree = "<group>"; };
+		853F76611B90ADB90024F39F /* TextFieldsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextFieldsViewController.xib; sourceTree = "<group>"; };
+		853F76621B90ADB90024F39F /* SwitchesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchesViewController.xib; sourceTree = "<group>"; };
+		853F76631B90ADB90024F39F /* DatePickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DatePickerViewController.xib; sourceTree = "<group>"; };
+		853F76641B90ADB90024F39F /* WebViewDemoController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewDemoController.xib; sourceTree = "<group>"; };
+		853F76651B90ADB90024F39F /* SegmentedControlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegmentedControlViewController.xib; sourceTree = "<group>"; };
+		853F76661B90ADB90024F39F /* PickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerViewController.xib; sourceTree = "<group>"; };
+		853F76671B90ADB90024F39F /* TableViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewViewController.xib; sourceTree = "<group>"; };
+		853F76681B90ADB90024F39F /* TextViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextViewViewController.xib; sourceTree = "<group>"; };
+		853F76691B90ADB90024F39F /* ScrollViewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollViewViewController.xib; sourceTree = "<group>"; };
+		853F766A1B90ADB90024F39F /* PageControlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageControlViewController.xib; sourceTree = "<group>"; };
+		853F766B1B90ADB90024F39F /* PageControlPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PageControlPageViewController.xib; sourceTree = "<group>"; };
+		853F766C1B90ADB90024F39F /* ToolBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToolBarViewController.xib; sourceTree = "<group>"; };
+		853F766D1B90ADB90024F39F /* TabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabBarViewController.xib; sourceTree = "<group>"; };
+		853F766E1B90ADB90024F39F /* ImageScrollViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageScrollViewController.xib; sourceTree = "<group>"; };
+		853F766F1B90ADB90024F39F /* StepperViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StepperViewController.xib; sourceTree = "<group>"; };
+		853F76701B90ADB90024F39F /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		853F76711B90ADB90024F39F /* CollectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewController.xib; sourceTree = "<group>"; };
+		853F76891B90ADDF0024F39F /* GestureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureViewController.m; sourceTree = "<group>"; };
+		853F768A1B90ADDF0024F39F /* GestureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureViewController.h; sourceTree = "<group>"; };
+		853F768B1B90ADDF0024F39F /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		853F768C1B90ADDF0024F39F /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		853F768D1B90ADDF0024F39F /* SearchBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchBarViewController.h; sourceTree = "<group>"; };
+		853F768E1B90ADDF0024F39F /* SearchBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchBarViewController.m; sourceTree = "<group>"; };
+		853F768F1B90ADDF0024F39F /* ButtonDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonDemoViewController.h; sourceTree = "<group>"; };
+		853F76901B90ADDF0024F39F /* ButtonDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonDemoViewController.m; sourceTree = "<group>"; };
+		853F76911B90ADDF0024F39F /* SlidersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlidersViewController.h; sourceTree = "<group>"; };
+		853F76921B90ADDF0024F39F /* SlidersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlidersViewController.m; sourceTree = "<group>"; };
+		853F76931B90ADDF0024F39F /* TextFieldsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldsViewController.h; sourceTree = "<group>"; };
+		853F76941B90ADDF0024F39F /* TextFieldsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldsViewController.m; sourceTree = "<group>"; };
+		853F76951B90ADDF0024F39F /* SwitchesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchesViewController.h; sourceTree = "<group>"; };
+		853F76961B90ADDF0024F39F /* SwitchesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchesViewController.m; sourceTree = "<group>"; };
+		853F76971B90ADDF0024F39F /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
+		853F76981B90ADDF0024F39F /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
+		853F76991B90ADDF0024F39F /* WebViewDemoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewDemoController.h; sourceTree = "<group>"; };
+		853F769A1B90ADDF0024F39F /* WebViewDemoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewDemoController.m; sourceTree = "<group>"; };
+		853F769B1B90ADDF0024F39F /* SegmentedControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentedControlViewController.h; sourceTree = "<group>"; };
+		853F769C1B90ADDF0024F39F /* SegmentedControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentedControlViewController.m; sourceTree = "<group>"; };
+		853F769D1B90ADDF0024F39F /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
+		853F769E1B90ADDF0024F39F /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
+		853F769F1B90ADDF0024F39F /* TableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewViewController.h; sourceTree = "<group>"; };
+		853F76A01B90ADDF0024F39F /* TableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewViewController.m; sourceTree = "<group>"; };
+		853F76A11B90ADDF0024F39F /* TextViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewViewController.h; sourceTree = "<group>"; };
+		853F76A21B90ADDF0024F39F /* TextViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewViewController.m; sourceTree = "<group>"; };
+		853F76A31B90ADDF0024F39F /* ScrollViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewViewController.h; sourceTree = "<group>"; };
+		853F76A41B90ADDF0024F39F /* ScrollViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewViewController.m; sourceTree = "<group>"; };
+		853F76A51B90ADDF0024F39F /* PageControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageControlViewController.h; sourceTree = "<group>"; };
+		853F76A61B90ADDF0024F39F /* PageControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageControlViewController.m; sourceTree = "<group>"; };
+		853F76A71B90ADDF0024F39F /* PageControlPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageControlPageViewController.h; sourceTree = "<group>"; };
+		853F76A81B90ADDF0024F39F /* PageControlPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageControlPageViewController.m; sourceTree = "<group>"; };
+		853F76A91B90ADDF0024F39F /* ToolBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolBarViewController.h; sourceTree = "<group>"; };
+		853F76AA1B90ADDF0024F39F /* ToolBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolBarViewController.m; sourceTree = "<group>"; };
+		853F76AB1B90ADDF0024F39F /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		853F76AC1B90ADDF0024F39F /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		853F76AD1B90ADDF0024F39F /* ImageScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScrollViewController.h; sourceTree = "<group>"; };
+		853F76AE1B90ADDF0024F39F /* ImageScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageScrollViewController.m; sourceTree = "<group>"; };
+		853F76AF1B90ADDF0024F39F /* StepperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StepperViewController.h; sourceTree = "<group>"; };
+		853F76B01B90ADDF0024F39F /* StepperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StepperViewController.m; sourceTree = "<group>"; };
+		853F76B11B90ADDF0024F39F /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		853F76B21B90ADDF0024F39F /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		853F76B31B90ADDF0024F39F /* SupportedOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SupportedOS.h; sourceTree = "<group>"; };
+		853F76B41B90ADDF0024F39F /* TSCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSCollectionCell.h; sourceTree = "<group>"; };
+		853F76B51B90ADDF0024F39F /* TSCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSCollectionCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		853A4D4C1B90AF4300A8AEAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				851DA7DA1BA1E14300C5F2C6 /* libicucore.dylib in Frameworks */,
+				853A4D901B90B00000A8AEAD /* CFNetwork.framework in Frameworks */,
+				853A4D8E1B90AFF900A8AEAD /* Security.framework in Frameworks */,
+				853A4D8A1B90AFEB00A8AEAD /* QuartzCore.framework in Frameworks */,
+				853A4D921B90B06500A8AEAD /* libMobileTestingExtension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853F75FF1B90AB580024F39F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		853A4D911B90B01000A8AEAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				851DA7D91BA1E14300C5F2C6 /* libicucore.dylib */,
+				853A4D8F1B90B00000A8AEAD /* CFNetwork.framework */,
+				853A4D8D1B90AFF900A8AEAD /* Security.framework */,
+				853A4D8B1B90AFF200A8AEAD /* libicucore.tbd */,
+				853A4D891B90AFEB00A8AEAD /* QuartzCore.framework */,
+				853A4D871B90AFE300A8AEAD /* libMobileTestingExtension.a */,
+			);
+			name = Frameworks;
+			path = DemoApplication;
+			sourceTree = "<group>";
+		};
+		853F75F91B90AB570024F39F = {
+			isa = PBXGroup;
+			children = (
+				853F76041B90AB580024F39F /* DemoApplication */,
+				853A4D911B90B01000A8AEAD /* Frameworks */,
+				853F76031B90AB580024F39F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		853F76031B90AB580024F39F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				853F76021B90AB580024F39F /* DemoApp.app */,
+				853A4D851B90AF4300A8AEAD /* DemoAppQA.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		853F76041B90AB580024F39F /* DemoApplication */ = {
+			isa = PBXGroup;
+			children = (
+				853F76881B90ADC00024F39F /* Universal */,
+				853F765B1B90ADAE0024F39F /* iPhone */,
+				853F762E1B90AD950024F39F /* iPad */,
+				853F76241B90AD890024F39F /* DemoApplicationAppDelegate.h */,
+				853F76251B90AD890024F39F /* DemoApplicationAppDelegate.m */,
+				853F76261B90AD890024F39F /* RootViewController.h */,
+				853F76271B90AD890024F39F /* RootViewController.m */,
+				853F76281B90AD890024F39F /* RootViewController.xib */,
+				853F76291B90AD890024F39F /* MainWindow.xib */,
+				853F76111B90AB580024F39F /* Assets.xcassets */,
+				853F76161B90AB580024F39F /* Info.plist */,
+				853A4D861B90AF4300A8AEAD /* DemoApplicationQA-Info.plist */,
+				853F76051B90AB580024F39F /* Supporting Files */,
+			);
+			path = DemoApplication;
+			sourceTree = "<group>";
+		};
+		853F76051B90AB580024F39F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				853F761C1B90ABD70024F39F /* Default-568h@2x.png */,
+				853F761D1B90ABD70024F39F /* telerik_logo.jpg */,
+				853F761E1B90ABD70024F39F /* demoIcon_57x57.png */,
+				853F761F1B90ABD70024F39F /* demoIcon_114x114.png */,
+				853F76061B90AB580024F39F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		853F762E1B90AD950024F39F /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				853F762F1B90ADA10024F39F /* GestureViewController-iPad.xib */,
+				853F76301B90ADA10024F39F /* ImageViewController-iPad.xib */,
+				853F76311B90ADA10024F39F /* SearchBarViewController-iPad.xib */,
+				853F76321B90ADA10024F39F /* ButtonDemoViewController-iPad.xib */,
+				853F76331B90ADA10024F39F /* SlidersViewController-iPad.xib */,
+				853F76341B90ADA10024F39F /* TextFieldsViewController-iPad.xib */,
+				853F76351B90ADA10024F39F /* SwitchesViewController-iPad.xib */,
+				853F76361B90ADA10024F39F /* DatePickerViewController-iPad.xib */,
+				853F76371B90ADA10024F39F /* WebViewDemoController-iPad.xib */,
+				853F76381B90ADA10024F39F /* SegmentedControlViewController-iPad.xib */,
+				853F76391B90ADA10024F39F /* PickerViewController-iPad.xib */,
+				853F763A1B90ADA10024F39F /* TableViewViewController-iPad.xib */,
+				853F763B1B90ADA10024F39F /* TextViewViewController-iPad.xib */,
+				853F763C1B90ADA10024F39F /* ScrollViewViewController-iPad.xib */,
+				853F763D1B90ADA10024F39F /* PageControlViewController-iPad.xib */,
+				853F763E1B90ADA10024F39F /* PageControlPageViewController-iPad.xib */,
+				853F763F1B90ADA10024F39F /* ToolBarViewController-iPad.xib */,
+				853F76401B90ADA10024F39F /* TabBarViewController-iPad.xib */,
+				853F76411B90ADA10024F39F /* ImageScrollViewController-iPad.xib */,
+				853F76421B90ADA10024F39F /* StepperViewController-iPad.xib */,
+				853F76431B90ADA10024F39F /* CollectionViewController-iPad.xib */,
+				853F76441B90ADA10024F39F /* CollectionViewCell-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+		853F765B1B90ADAE0024F39F /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				853F765C1B90ADB90024F39F /* GestureViewController.xib */,
+				853F765D1B90ADB90024F39F /* ImageViewController.xib */,
+				853F765E1B90ADB90024F39F /* SearchBarViewController.xib */,
+				853F765F1B90ADB90024F39F /* ButtonDemoViewController.xib */,
+				853F76601B90ADB90024F39F /* SlidersViewController.xib */,
+				853F76611B90ADB90024F39F /* TextFieldsViewController.xib */,
+				853F76621B90ADB90024F39F /* SwitchesViewController.xib */,
+				853F76631B90ADB90024F39F /* DatePickerViewController.xib */,
+				853F76641B90ADB90024F39F /* WebViewDemoController.xib */,
+				853F76651B90ADB90024F39F /* SegmentedControlViewController.xib */,
+				853F76661B90ADB90024F39F /* PickerViewController.xib */,
+				853F76671B90ADB90024F39F /* TableViewViewController.xib */,
+				853F76681B90ADB90024F39F /* TextViewViewController.xib */,
+				853F76691B90ADB90024F39F /* ScrollViewViewController.xib */,
+				853F766A1B90ADB90024F39F /* PageControlViewController.xib */,
+				853F766B1B90ADB90024F39F /* PageControlPageViewController.xib */,
+				853F766C1B90ADB90024F39F /* ToolBarViewController.xib */,
+				853F766D1B90ADB90024F39F /* TabBarViewController.xib */,
+				853F766E1B90ADB90024F39F /* ImageScrollViewController.xib */,
+				853F766F1B90ADB90024F39F /* StepperViewController.xib */,
+				853F76701B90ADB90024F39F /* CollectionViewCell.xib */,
+				853F76711B90ADB90024F39F /* CollectionViewController.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		853F76881B90ADC00024F39F /* Universal */ = {
+			isa = PBXGroup;
+			children = (
+				853F76891B90ADDF0024F39F /* GestureViewController.m */,
+				853F768A1B90ADDF0024F39F /* GestureViewController.h */,
+				853F768B1B90ADDF0024F39F /* ImageViewController.m */,
+				853F768C1B90ADDF0024F39F /* ImageViewController.h */,
+				853F768D1B90ADDF0024F39F /* SearchBarViewController.h */,
+				853F768E1B90ADDF0024F39F /* SearchBarViewController.m */,
+				853F768F1B90ADDF0024F39F /* ButtonDemoViewController.h */,
+				853F76901B90ADDF0024F39F /* ButtonDemoViewController.m */,
+				853F76911B90ADDF0024F39F /* SlidersViewController.h */,
+				853F76921B90ADDF0024F39F /* SlidersViewController.m */,
+				853F76931B90ADDF0024F39F /* TextFieldsViewController.h */,
+				853F76941B90ADDF0024F39F /* TextFieldsViewController.m */,
+				853F76951B90ADDF0024F39F /* SwitchesViewController.h */,
+				853F76961B90ADDF0024F39F /* SwitchesViewController.m */,
+				853F76971B90ADDF0024F39F /* DatePickerViewController.h */,
+				853F76981B90ADDF0024F39F /* DatePickerViewController.m */,
+				853F76991B90ADDF0024F39F /* WebViewDemoController.h */,
+				853F769A1B90ADDF0024F39F /* WebViewDemoController.m */,
+				853F769B1B90ADDF0024F39F /* SegmentedControlViewController.h */,
+				853F769C1B90ADDF0024F39F /* SegmentedControlViewController.m */,
+				853F769D1B90ADDF0024F39F /* PickerViewController.h */,
+				853F769E1B90ADDF0024F39F /* PickerViewController.m */,
+				853F769F1B90ADDF0024F39F /* TableViewViewController.h */,
+				853F76A01B90ADDF0024F39F /* TableViewViewController.m */,
+				853F76A11B90ADDF0024F39F /* TextViewViewController.h */,
+				853F76A21B90ADDF0024F39F /* TextViewViewController.m */,
+				853F76A31B90ADDF0024F39F /* ScrollViewViewController.h */,
+				853F76A41B90ADDF0024F39F /* ScrollViewViewController.m */,
+				853F76A51B90ADDF0024F39F /* PageControlViewController.h */,
+				853F76A61B90ADDF0024F39F /* PageControlViewController.m */,
+				853F76A71B90ADDF0024F39F /* PageControlPageViewController.h */,
+				853F76A81B90ADDF0024F39F /* PageControlPageViewController.m */,
+				853F76A91B90ADDF0024F39F /* ToolBarViewController.h */,
+				853F76AA1B90ADDF0024F39F /* ToolBarViewController.m */,
+				853F76AB1B90ADDF0024F39F /* TabBarViewController.h */,
+				853F76AC1B90ADDF0024F39F /* TabBarViewController.m */,
+				853F76AD1B90ADDF0024F39F /* ImageScrollViewController.h */,
+				853F76AE1B90ADDF0024F39F /* ImageScrollViewController.m */,
+				853F76AF1B90ADDF0024F39F /* StepperViewController.h */,
+				853F76B01B90ADDF0024F39F /* StepperViewController.m */,
+				853F76B11B90ADDF0024F39F /* CollectionViewController.h */,
+				853F76B21B90ADDF0024F39F /* CollectionViewController.m */,
+				853F76B31B90ADDF0024F39F /* SupportedOS.h */,
+				853F76B41B90ADDF0024F39F /* TSCollectionCell.h */,
+				853F76B51B90ADDF0024F39F /* TSCollectionCell.m */,
+			);
+			name = Universal;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		853A4D311B90AF4300A8AEAD /* DemoAppQA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853A4D821B90AF4300A8AEAD /* Build configuration list for PBXNativeTarget "DemoAppQA" */;
+			buildPhases = (
+				853A4D321B90AF4300A8AEAD /* Sources */,
+				853A4D4C1B90AF4300A8AEAD /* Frameworks */,
+				853A4D4D1B90AF4300A8AEAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoAppQA;
+			productName = DemoApplication;
+			productReference = 853A4D851B90AF4300A8AEAD /* DemoAppQA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		853F76011B90AB580024F39F /* DemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 853F76191B90AB580024F39F /* Build configuration list for PBXNativeTarget "DemoApp" */;
+			buildPhases = (
+				853F75FE1B90AB580024F39F /* Sources */,
+				853F75FF1B90AB580024F39F /* Frameworks */,
+				853F76001B90AB580024F39F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoApp;
+			productName = DemoApplication;
+			productReference = 853F76021B90AB580024F39F /* DemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		853F75FA1B90AB570024F39F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Telerik;
+				TargetAttributes = {
+					853F76011B90AB580024F39F = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 853F75FD1B90AB570024F39F /* Build configuration list for PBXProject "DemoApplication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 853F75F91B90AB570024F39F;
+			productRefGroup = 853F76031B90AB580024F39F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				853F76011B90AB580024F39F /* DemoApp */,
+				853A4D311B90AF4300A8AEAD /* DemoAppQA */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		853A4D4D1B90AF4300A8AEAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853A4D4E1B90AF4300A8AEAD /* StepperViewController-iPad.xib in Resources */,
+				853A4D4F1B90AF4300A8AEAD /* SearchBarViewController-iPad.xib in Resources */,
+				853A4D501B90AF4300A8AEAD /* demoIcon_57x57.png in Resources */,
+				853A4D521B90AF4300A8AEAD /* TabBarViewController.xib in Resources */,
+				853A4D531B90AF4300A8AEAD /* TextFieldsViewController.xib in Resources */,
+				853A4D541B90AF4300A8AEAD /* SlidersViewController-iPad.xib in Resources */,
+				853A4D551B90AF4300A8AEAD /* ToolBarViewController-iPad.xib in Resources */,
+				853A4D561B90AF4300A8AEAD /* PageControlPageViewController-iPad.xib in Resources */,
+				853A4D571B90AF4300A8AEAD /* TableViewViewController-iPad.xib in Resources */,
+				853A4D581B90AF4300A8AEAD /* PickerViewController-iPad.xib in Resources */,
+				853A4D591B90AF4300A8AEAD /* SwitchesViewController-iPad.xib in Resources */,
+				853A4D5A1B90AF4300A8AEAD /* SegmentedControlViewController.xib in Resources */,
+				853A4D5B1B90AF4300A8AEAD /* TableViewViewController.xib in Resources */,
+				853A4D5C1B90AF4300A8AEAD /* CollectionViewCell.xib in Resources */,
+				853A4D5D1B90AF4300A8AEAD /* StepperViewController.xib in Resources */,
+				853A4D5E1B90AF4300A8AEAD /* ImageViewController.xib in Resources */,
+				853A4D5F1B90AF4300A8AEAD /* DatePickerViewController.xib in Resources */,
+				853A4D601B90AF4300A8AEAD /* ButtonDemoViewController.xib in Resources */,
+				853A4D611B90AF4300A8AEAD /* CollectionViewCell-iPad.xib in Resources */,
+				853A4D621B90AF4300A8AEAD /* ImageScrollViewController-iPad.xib in Resources */,
+				853A4D631B90AF4300A8AEAD /* ImageViewController-iPad.xib in Resources */,
+				853A4D641B90AF4300A8AEAD /* SwitchesViewController.xib in Resources */,
+				853A4D651B90AF4300A8AEAD /* ImageScrollViewController.xib in Resources */,
+				853A4D661B90AF4300A8AEAD /* ToolBarViewController.xib in Resources */,
+				853A4D671B90AF4300A8AEAD /* ScrollViewViewController-iPad.xib in Resources */,
+				853A4D681B90AF4300A8AEAD /* PageControlViewController.xib in Resources */,
+				853A4D691B90AF4300A8AEAD /* demoIcon_114x114.png in Resources */,
+				853A4D6A1B90AF4300A8AEAD /* ScrollViewViewController.xib in Resources */,
+				853A4D6B1B90AF4300A8AEAD /* TextFieldsViewController-iPad.xib in Resources */,
+				853A4D6C1B90AF4300A8AEAD /* DatePickerViewController-iPad.xib in Resources */,
+				853A4D6D1B90AF4300A8AEAD /* TextViewViewController-iPad.xib in Resources */,
+				853A4D6E1B90AF4300A8AEAD /* Default-568h@2x.png in Resources */,
+				853A4D6F1B90AF4300A8AEAD /* TabBarViewController-iPad.xib in Resources */,
+				853A4D701B90AF4300A8AEAD /* TextViewViewController.xib in Resources */,
+				853A4D711B90AF4300A8AEAD /* PageControlPageViewController.xib in Resources */,
+				853A4D721B90AF4300A8AEAD /* SearchBarViewController.xib in Resources */,
+				853A4D731B90AF4300A8AEAD /* SlidersViewController.xib in Resources */,
+				853A4D741B90AF4300A8AEAD /* MainWindow.xib in Resources */,
+				853A4D751B90AF4300A8AEAD /* RootViewController.xib in Resources */,
+				853A4D761B90AF4300A8AEAD /* GestureViewController-iPad.xib in Resources */,
+				853A4D771B90AF4300A8AEAD /* CollectionViewController-iPad.xib in Resources */,
+				853A4D781B90AF4300A8AEAD /* PageControlViewController-iPad.xib in Resources */,
+				853A4D791B90AF4300A8AEAD /* SegmentedControlViewController-iPad.xib in Resources */,
+				853A4D7A1B90AF4300A8AEAD /* CollectionViewController.xib in Resources */,
+				853A4D7B1B90AF4300A8AEAD /* GestureViewController.xib in Resources */,
+				853A4D7C1B90AF4300A8AEAD /* telerik_logo.jpg in Resources */,
+				853A4D7D1B90AF4300A8AEAD /* WebViewDemoController.xib in Resources */,
+				853A4D7E1B90AF4300A8AEAD /* PickerViewController.xib in Resources */,
+				853A4D7F1B90AF4300A8AEAD /* WebViewDemoController-iPad.xib in Resources */,
+				853A4D801B90AF4300A8AEAD /* Assets.xcassets in Resources */,
+				853A4D811B90AF4300A8AEAD /* ButtonDemoViewController-iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853F76001B90AB580024F39F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853F76581B90ADA10024F39F /* StepperViewController-iPad.xib in Resources */,
+				853F76471B90ADA10024F39F /* SearchBarViewController-iPad.xib in Resources */,
+				853F76221B90ABD70024F39F /* demoIcon_57x57.png in Resources */,
+				853F76831B90ADB90024F39F /* TabBarViewController.xib in Resources */,
+				853F76771B90ADB90024F39F /* TextFieldsViewController.xib in Resources */,
+				853F76491B90ADA10024F39F /* SlidersViewController-iPad.xib in Resources */,
+				853F76551B90ADA10024F39F /* ToolBarViewController-iPad.xib in Resources */,
+				853F76541B90ADA10024F39F /* PageControlPageViewController-iPad.xib in Resources */,
+				853F76501B90ADA10024F39F /* TableViewViewController-iPad.xib in Resources */,
+				853F764F1B90ADA10024F39F /* PickerViewController-iPad.xib in Resources */,
+				853F764B1B90ADA10024F39F /* SwitchesViewController-iPad.xib in Resources */,
+				853F767B1B90ADB90024F39F /* SegmentedControlViewController.xib in Resources */,
+				853F767D1B90ADB90024F39F /* TableViewViewController.xib in Resources */,
+				853F76861B90ADB90024F39F /* CollectionViewCell.xib in Resources */,
+				853F76851B90ADB90024F39F /* StepperViewController.xib in Resources */,
+				853F76731B90ADB90024F39F /* ImageViewController.xib in Resources */,
+				853F76791B90ADB90024F39F /* DatePickerViewController.xib in Resources */,
+				853F76751B90ADB90024F39F /* ButtonDemoViewController.xib in Resources */,
+				853F765A1B90ADA10024F39F /* CollectionViewCell-iPad.xib in Resources */,
+				853F76571B90ADA10024F39F /* ImageScrollViewController-iPad.xib in Resources */,
+				853F76461B90ADA10024F39F /* ImageViewController-iPad.xib in Resources */,
+				853F76781B90ADB90024F39F /* SwitchesViewController.xib in Resources */,
+				853F76841B90ADB90024F39F /* ImageScrollViewController.xib in Resources */,
+				853F76821B90ADB90024F39F /* ToolBarViewController.xib in Resources */,
+				853F76521B90ADA10024F39F /* ScrollViewViewController-iPad.xib in Resources */,
+				853F76801B90ADB90024F39F /* PageControlViewController.xib in Resources */,
+				853F76231B90ABD70024F39F /* demoIcon_114x114.png in Resources */,
+				853F767F1B90ADB90024F39F /* ScrollViewViewController.xib in Resources */,
+				853F764A1B90ADA10024F39F /* TextFieldsViewController-iPad.xib in Resources */,
+				853F764C1B90ADA10024F39F /* DatePickerViewController-iPad.xib in Resources */,
+				853F76511B90ADA10024F39F /* TextViewViewController-iPad.xib in Resources */,
+				853F76201B90ABD70024F39F /* Default-568h@2x.png in Resources */,
+				853F76561B90ADA10024F39F /* TabBarViewController-iPad.xib in Resources */,
+				853F767E1B90ADB90024F39F /* TextViewViewController.xib in Resources */,
+				853F76811B90ADB90024F39F /* PageControlPageViewController.xib in Resources */,
+				853F76741B90ADB90024F39F /* SearchBarViewController.xib in Resources */,
+				853F76761B90ADB90024F39F /* SlidersViewController.xib in Resources */,
+				853F762D1B90AD890024F39F /* MainWindow.xib in Resources */,
+				853F762C1B90AD890024F39F /* RootViewController.xib in Resources */,
+				853F76451B90ADA10024F39F /* GestureViewController-iPad.xib in Resources */,
+				853F76591B90ADA10024F39F /* CollectionViewController-iPad.xib in Resources */,
+				853F76531B90ADA10024F39F /* PageControlViewController-iPad.xib in Resources */,
+				853F764E1B90ADA10024F39F /* SegmentedControlViewController-iPad.xib in Resources */,
+				853F76871B90ADB90024F39F /* CollectionViewController.xib in Resources */,
+				853F76721B90ADB90024F39F /* GestureViewController.xib in Resources */,
+				853F76211B90ABD70024F39F /* telerik_logo.jpg in Resources */,
+				853F767A1B90ADB90024F39F /* WebViewDemoController.xib in Resources */,
+				853F767C1B90ADB90024F39F /* PickerViewController.xib in Resources */,
+				853F764D1B90ADA10024F39F /* WebViewDemoController-iPad.xib in Resources */,
+				853F76121B90AB580024F39F /* Assets.xcassets in Resources */,
+				853F76481B90ADA10024F39F /* ButtonDemoViewController-iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		853A4D321B90AF4300A8AEAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853A4D331B90AF4300A8AEAD /* ToolBarViewController.m in Sources */,
+				853A4D341B90AF4300A8AEAD /* ScrollViewViewController.m in Sources */,
+				853A4D351B90AF4300A8AEAD /* PageControlViewController.m in Sources */,
+				853A4D361B90AF4300A8AEAD /* DatePickerViewController.m in Sources */,
+				853A4D371B90AF4300A8AEAD /* TableViewViewController.m in Sources */,
+				853A4D381B90AF4300A8AEAD /* TextViewViewController.m in Sources */,
+				853A4D391B90AF4300A8AEAD /* SwitchesViewController.m in Sources */,
+				853A4D3A1B90AF4300A8AEAD /* ImageViewController.m in Sources */,
+				853A4D3B1B90AF4300A8AEAD /* CollectionViewController.m in Sources */,
+				853A4D3C1B90AF4300A8AEAD /* ButtonDemoViewController.m in Sources */,
+				853A4D3D1B90AF4300A8AEAD /* GestureViewController.m in Sources */,
+				853A4D3E1B90AF4300A8AEAD /* TextFieldsViewController.m in Sources */,
+				853A4D3F1B90AF4300A8AEAD /* ImageScrollViewController.m in Sources */,
+				853A4D401B90AF4300A8AEAD /* DemoApplicationAppDelegate.m in Sources */,
+				853A4D411B90AF4300A8AEAD /* main.m in Sources */,
+				853A4D421B90AF4300A8AEAD /* StepperViewController.m in Sources */,
+				853A4D431B90AF4300A8AEAD /* WebViewDemoController.m in Sources */,
+				853A4D441B90AF4300A8AEAD /* TSCollectionCell.m in Sources */,
+				853A4D451B90AF4300A8AEAD /* PageControlPageViewController.m in Sources */,
+				853A4D461B90AF4300A8AEAD /* SearchBarViewController.m in Sources */,
+				853A4D471B90AF4300A8AEAD /* TabBarViewController.m in Sources */,
+				853A4D481B90AF4300A8AEAD /* SegmentedControlViewController.m in Sources */,
+				853A4D491B90AF4300A8AEAD /* RootViewController.m in Sources */,
+				853A4D4A1B90AF4300A8AEAD /* PickerViewController.m in Sources */,
+				853A4D4B1B90AF4300A8AEAD /* SlidersViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		853F75FE1B90AB580024F39F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853F76C61B90ADDF0024F39F /* ToolBarViewController.m in Sources */,
+				853F76C31B90ADDF0024F39F /* ScrollViewViewController.m in Sources */,
+				853F76C41B90ADDF0024F39F /* PageControlViewController.m in Sources */,
+				853F76BD1B90ADDF0024F39F /* DatePickerViewController.m in Sources */,
+				853F76C11B90ADDF0024F39F /* TableViewViewController.m in Sources */,
+				853F76C21B90ADDF0024F39F /* TextViewViewController.m in Sources */,
+				853F76BC1B90ADDF0024F39F /* SwitchesViewController.m in Sources */,
+				853F76B71B90ADDF0024F39F /* ImageViewController.m in Sources */,
+				853F76CA1B90ADDF0024F39F /* CollectionViewController.m in Sources */,
+				853F76B91B90ADDF0024F39F /* ButtonDemoViewController.m in Sources */,
+				853F76B61B90ADDF0024F39F /* GestureViewController.m in Sources */,
+				853F76BB1B90ADDF0024F39F /* TextFieldsViewController.m in Sources */,
+				853F76C81B90ADDF0024F39F /* ImageScrollViewController.m in Sources */,
+				853F762A1B90AD890024F39F /* DemoApplicationAppDelegate.m in Sources */,
+				853F76071B90AB580024F39F /* main.m in Sources */,
+				853F76C91B90ADDF0024F39F /* StepperViewController.m in Sources */,
+				853F76BE1B90ADDF0024F39F /* WebViewDemoController.m in Sources */,
+				853F76CB1B90ADDF0024F39F /* TSCollectionCell.m in Sources */,
+				853F76C51B90ADDF0024F39F /* PageControlPageViewController.m in Sources */,
+				853F76B81B90ADDF0024F39F /* SearchBarViewController.m in Sources */,
+				853F76C71B90ADDF0024F39F /* TabBarViewController.m in Sources */,
+				853F76BF1B90ADDF0024F39F /* SegmentedControlViewController.m in Sources */,
+				853F762B1B90AD890024F39F /* RootViewController.m in Sources */,
+				853F76C01B90ADDF0024F39F /* PickerViewController.m in Sources */,
+				853F76BA1B90ADDF0024F39F /* SlidersViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		853A4D831B90AF4300A8AEAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DemoApplicationQA-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../extensions/iOS\"";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.telerik.DemoAppQA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		853A4D841B90AF4300A8AEAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DemoApplicationQA-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../../extensions/iOS\"";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.telerik.DemoAppQA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		853F76171B90AB580024F39F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		853F76181B90AB580024F39F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		853F761A1B90AB580024F39F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DemoApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.telerik.DemoApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		853F761B1B90AB580024F39F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DemoApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.telerik.DemoApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		853A4D821B90AF4300A8AEAD /* Build configuration list for PBXNativeTarget "DemoAppQA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853A4D831B90AF4300A8AEAD /* Debug */,
+				853A4D841B90AF4300A8AEAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853F75FD1B90AB570024F39F /* Build configuration list for PBXProject "DemoApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853F76171B90AB580024F39F /* Debug */,
+				853F76181B90AB580024F39F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		853F76191B90AB580024F39F /* Build configuration list for PBXNativeTarget "DemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				853F761A1B90AB580024F39F /* Debug */,
+				853F761B1B90AB580024F39F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 853F75FA1B90AB570024F39F /* Project object */;
+}

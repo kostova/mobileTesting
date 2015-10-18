@@ -1,0 +1,17 @@
+{
+  "name": "TelerikTesting-CLI",
+  "description": "Telerik Testing Command Line Tool",
+  "version": "2.4.0",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "private": true,
+  "preferGlobal": "true",
+  "main": "tmtest.js",
+  "bin": {
+    "tmtest": "tmtest.js"
+  },
+  "dependencies": {
+    "commander": "~2.0.0"
+  }
+}

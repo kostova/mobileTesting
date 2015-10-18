@@ -1,0 +1,10 @@
+{
+    "com.telerik.mobiletesting": {
+        "source": {
+            "type": "local",
+            "path": "../../../extensions/Cordova/com.telerik.mobiletesting"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

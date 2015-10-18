@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnTest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnGoMisc"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@id/btnGoMisc"
+            android:layout_marginTop="18dp"
+            android:text="@string/btn_test"
+            android:visibility="gone">
+        </Button>
+
+        <Button
+            android:id="@+id/btnGoButtons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnTest"
+            android:layout_centerHorizontal="true"
+            android:layout_alignLeft="@+id/btnGoMisc"
+            android:layout_alignRight="@id/btnGoMisc"
+            android:text="@string/btn_gobuttons" >
+        </Button>
+
+        <Button
+            android:id="@+id/btnGoSharedButtons"
+            android:text="Shared Buttons"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnGoButtons"
+            android:layout_alignRight="@+id/btnGoMisc"
+            android:layout_alignLeft="@id/btnGoMisc"/>
+
+        <Button
+            android:id="@+id/btnGoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnGoSharedButtons"
+            android:layout_centerHorizontal="true"
+            android:layout_alignLeft="@+id/btnGoMisc"
+            android:layout_alignRight="@id/btnGoMisc"
+            android:text="Text Controls"/>
+
+        <Button
+            android:id="@+id/btnGoSelections"
+            android:text="Selection Controls"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_alignLeft="@+id/btnGoMisc"
+            android:layout_alignRight="@id/btnGoMisc"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnGoText"/>
+
+        <Button
+            android:id="@+id/btnGoExpandableList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expandable List"
+            android:layout_centerHorizontal="true"
+            android:layout_alignLeft="@+id/btnGoMisc"
+            android:layout_alignRight="@id/btnGoMisc"
+            android:layout_below="@+id/btnGoSelections"/>
+
+        <Button
+            android:id="@+id/btnGoDateTime"
+            android:text="Date / Time Controls"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_alignLeft="@+id/btnGoMisc"
+            android:layout_alignRight="@id/btnGoMisc"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnGoExpandableList"/>
+
+        <Button
+            android:id="@+id/btnGoMisc"
+            android:text="Miscellaneous Controls"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnGoDateTime"/>
+
+        <Button
+            android:id="@+id/btnGoWebView"
+            android:text="Web View"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnGoMisc"
+            android:layout_alignRight="@id/btnGoMisc"
+            android:layout_below="@id/btnGoMisc" />
+
+        <Button
+            android:id="@+id/btnGoDrawers"
+            android:text="Sliding Drawers"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnGoMisc"
+            android:layout_alignRight="@+id/btnGoMisc"
+            android:layout_below="@+id/btnGoWebView"/>
+
+        <Button
+            android:id="@+id/btnGoHoneycomb"
+            android:text="HONEYCOMB Controls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignLeft="@+id/btnGoMisc"
+            android:layout_alignRight="@id/btnGoMisc"
+            android:layout_below="@id/btnGoDrawers"/>
+
+        <Button
+            android:id="@+id/btnGoIceCreamSandwich"
+            android:text="ICS Controls"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignLeft="@+id/btnGoMisc"
+            android:layout_alignRight="@id/btnGoMisc"
+            android:layout_below="@id/btnGoHoneycomb"/>
+
+        <Button
+            android:id="@+id/btnGoGestures"
+            android:text="Gestures"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignLeft="@+id/btnGoMisc"
+            android:layout_alignRight="@id/btnGoMisc"
+            android:layout_below="@id/btnGoIceCreamSandwich"/>
+
+        <Button
+            android:id="@+id/btnGoDragZoomRotate"
+            android:text="Drag, Zoom and Rotate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignLeft="@+id/btnGoMisc"
+            android:layout_alignRight="@id/btnGoMisc"
+            android:layout_below="@id/btnGoGestures"/>
+
+        <Button
+            android:id="@+id/btnGoSecondaryActivity"
+            android:text="Secondary Activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignLeft="@+id/btnGoMisc"
+            android:layout_alignRight="@id/btnGoMisc"
+            android:layout_below="@id/btnGoDragZoomRotate"/>
+
+    </RelativeLayout>
+</ScrollView>

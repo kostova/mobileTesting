@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/textView1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/textViewHint"
+        android:contentDescription="Base EditText"
+        android:text="@string/textViewInitialContent"/>
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/autoCompleteInitialContent"/>
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="@string/multiAutoCompleteHint"/>
+</LinearLayout>

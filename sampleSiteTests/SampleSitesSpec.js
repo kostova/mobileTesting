@@ -1,9 +1,9 @@
 
 spec(function(){
 
-    var CURR_DOMAIN = 'http://192.168.1.108/',
-        REG_URL = 'http://192.168.1.108/Account/Register',
-        PREP_DOMAIN = 'http://192.168.1.108/MobileTesting/TelerikTestingPrepareDomain.html';
+    var CURR_DOMAIN = 'http://192.168.147.148:8051/',
+        CONTACT_URL = 'http://192.168.147.148:8051/Home/Contact',
+        PREP_DOMAIN = 'http://192.168.147.148:8051/MobileTesting/TelerikTestingPrepareDomain.html';
 
 	// queries for this suite, structured in a way
 	// that makes sense for this web page
@@ -40,9 +40,11 @@ spec(function(){
 			home: {href:"/"},
 			about: {href:"/Home/About"}
 		},
-		headerRight: {
+		menu: {
+			mainMenu: {id: "menu"},
 			register: {id:"registerLink"},
-			login: {id: "loginLink"}
+			login: {id:"loginLink"},
+			contact: {id: "contactLink"}
 		},
 		registerForm: {
 			email: {id: "Email"},
@@ -59,7 +61,8 @@ spec(function(){
 		cheddaCard = [queries.billingInfo.cardType, {tagName: "input", index: 2}],
 		ERROR_TEXT = "There were some problems with your order. Please correct them and submit again.",
 		SUCCESS_TEXT = "Thank you for your order! A download link for your piping hot tacos will be emailed to you as soon as they're ready!";
-		registerButton = [queries.headerRight.register]
+		registerButton = [queries.menu.register],
+		contactButton = [queries.menu.contact]
 
 	// define all steps here so they can be reused, and so that
 	// the tests read in plain language
@@ -75,7 +78,13 @@ spec(function(){
 		"click Register": {
 			web: [				
 				web.click(registerButton),
-				web.waitForUrl(REG_URL, 5000)
+				web.waitForUrl(CONTACT_URL, 5000)
+			]
+		},
+		"click Contact": {
+			web: [				
+				web.click(contactButton),
+				web.waitForUrl(CONTACT_URL, 9000)
 			]
 		},
 		"fill in email": {
@@ -341,6 +350,11 @@ spec(function(){
 			step("fill in confirm password");
 			step("take a screenshot");
 		});
+
+		test("Open Contact page", function(){
+			step("Redirect to site under test");
+			step("click Contact");
+		})
 	}, stepRepository);
 
 });
